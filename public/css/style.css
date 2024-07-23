@@ -1,0 +1,34 @@
+body {
+    height: 100vh !important;
+    margin: 0px;
+}
+#app {
+    min-height: 100vh !important;
+}
+.bg-sombre {
+    color: white;
+    background-color: #343434;
+}
+.bg-clair {
+    color: black;
+    background-color: white;
+}
+
+.fw-900 {
+    font-weight: 900;
+}
+
+.bouton {
+    text-decoration: none;
+    font-weight: 900;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 22px;
+}
+.bouton-clair {
+    color: #000000;
+    background-color: #d9d9d9;
+}
+.bouton-clair:hover {
+    background-color: #adadad;
+}

@@ -1,26 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <DebutOnboarding />
+  <DarkModeSwitch />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import DarkModeSwitch from './components/DarkModeSwitch.vue';
+import DebutOnboarding from './components/DebutOnboarding.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    DebutOnboarding,
+    DarkModeSwitch
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
