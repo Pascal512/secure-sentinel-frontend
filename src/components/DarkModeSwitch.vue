@@ -18,6 +18,7 @@
 import { mapActions, mapGetters } from 'vuex';
 
 export default {
+  name: 'DarkModeSwitch',
   computed: {
     ...mapGetters(['isModeSombre'])
   },

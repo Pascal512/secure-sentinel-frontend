@@ -8,7 +8,9 @@
                 <div class="col text-center mt-5">
                     <h1 class="fw-900">Bienvenue sur SecureSentinel</h1>
                     <p class="mt-5">Protégez votre famille en toute simplicité avec notre solution de surveillance intelligente.</p>
-                    <a href="./onboarding.html" class="bouton bouton-clair d-inline-block mt-3">Commencer</a>
+                    <router-link to="/Onboarding1">
+                        <div class="bouton bouton-clair d-inline-block mt-3">Commencer</div>
+                    </router-link>
                 </div>
             </div>
         </div>
@@ -19,6 +21,7 @@
 import { mapActions, mapGetters } from 'vuex';
 
 export default {
+    name: 'DebutOnboarding',
     computed: {
         ...mapGetters(['isModeSombre'])
     },

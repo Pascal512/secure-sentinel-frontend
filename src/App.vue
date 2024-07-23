@@ -1,19 +1,11 @@
 <template>
-  <DebutOnboarding />
-  <DarkModeSwitch />
+  <router-view />
 </template>
 
 <script>
-import DarkModeSwitch from './components/DarkModeSwitch.vue';
-import DebutOnboarding from './components/DebutOnboarding.vue'
-
-export default {
-  name: 'App',
-  components: {
-    DebutOnboarding,
-    DarkModeSwitch
+  export default {
+    name: 'App'
   }
-}
 </script>
 
 <style>
