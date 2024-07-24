@@ -12,7 +12,7 @@
                 <div class="col text-center mt-5">
                     <h1 class="fw-900">Vous êtes Prêt !</h1>
                     <p class="mt-3 mb-5 px-4">Vous pouvez maintenant commencer à utiliser SecureSentinel pour protéger votre maison et votre famille.</p>
-                    <router-link to="/Connexion">
+                    <router-link to="/ConnexionPage">
                         <div class="bouton bouton-clair d-inline-block mt-3">Connexion</div>
                     </router-link>
                 </div>

@@ -5,6 +5,7 @@ import OnboardingSecond from '../views/Onboarding2.vue';
 import OnboardingThird from '../views/Onboarding3.vue';
 import OnboardingFourth from '../views/Onboarding4.vue';
 import OnboardingFin from '@/views/OnboardingFin.vue';
+import ConnexionPage from '@/views/ConnexionPage.vue';
 
 const routes = [
   {
@@ -36,6 +37,11 @@ const routes = [
     path: '/OnboardingFin',
     name: 'OnboardingFin',
     component: OnboardingFin
+  },
+  {
+    path: '/ConnexionPage',
+    name: 'ConnexionPage',
+    component: ConnexionPage
   }
 ];
 
