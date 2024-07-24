@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import OnboardingBegin from '../views/Onboarding0.vue';
 import OnboardingFirst from '../views/Onboarding1.vue';
 import OnboardingSecond from '../views/Onboarding2.vue';
+import OnboardingThird from '../views/Onboarding3.vue';
 
 const routes = [
   {
@@ -18,6 +19,11 @@ const routes = [
     path: '/Onboarding2',
     name: 'Onboarding2',
     component: OnboardingSecond
+  },
+  {
+    path: '/Onboarding3',
+    name: 'Onboarding3',
+    component: OnboardingThird
   }
 ];
 
