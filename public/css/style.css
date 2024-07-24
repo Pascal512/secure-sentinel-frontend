@@ -1,9 +1,15 @@
+html {
+    min-width: 100vw !important;
+    min-height: 100vh !important;
+}
 body {
-    height: 100vh !important;
+    min-height: 100vh !important;
+    width: 100% !important;
     margin: 0px;
 }
 #app {
     min-height: 100vh !important;
+    width: 100%;
 }
 .bg-sombre {
     color: white;
