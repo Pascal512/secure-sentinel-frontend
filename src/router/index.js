@@ -3,6 +3,8 @@ import OnboardingBegin from '../views/Onboarding0.vue';
 import OnboardingFirst from '../views/Onboarding1.vue';
 import OnboardingSecond from '../views/Onboarding2.vue';
 import OnboardingThird from '../views/Onboarding3.vue';
+import OnboardingFourth from '../views/Onboarding4.vue';
+import OnboardingFin from '@/views/OnboardingFin.vue';
 
 const routes = [
   {
@@ -24,6 +26,16 @@ const routes = [
     path: '/Onboarding3',
     name: 'Onboarding3',
     component: OnboardingThird
+  },
+  {
+    path: '/Onboarding4',
+    name: 'Onboarding4',
+    component: OnboardingFourth
+  },
+  {
+    path: '/OnboardingFin',
+    name: 'OnboardingFin',
+    component: OnboardingFin
   }
 ];
 
