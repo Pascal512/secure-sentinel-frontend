@@ -28,8 +28,8 @@ export default {
 
 <style scoped>
 .conteneur-sombre {
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
 }
 .h-45vh {
     height: 45vh !important;

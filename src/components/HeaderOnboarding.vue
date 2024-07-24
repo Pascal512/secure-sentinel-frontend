@@ -1,5 +1,5 @@
 <template>
-    <div class="w-100 px-5 pt-3 position-absolute top-0 start-0">
+    <div class="w-100 px-5 pt-3 position-absolute top-0 start-0 position-relative z-index-30">
         <div class="col-12 col-md-6 mx-auto">
             <div class="row justify-content-between">
                 <div class="col-auto p-0 pt-2 align-items-center">
@@ -52,5 +52,8 @@ export default {
 .decoration-none a {
     text-decoration: none !important;
     color: black;
+}
+.z-index-30 {
+    z-index: 30;
 }
 </style>
