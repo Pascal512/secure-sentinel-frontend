@@ -6,6 +6,7 @@ import OnboardingThird from '../views/Onboarding3.vue';
 import OnboardingFourth from '../views/Onboarding4.vue';
 import OnboardingFin from '@/views/OnboardingFin.vue';
 import ConnexionPage from '@/views/ConnexionPage.vue';
+import InscriptionPage1 from '@/views/InscriptionPage1.vue';
 
 const routes = [
   {
@@ -42,6 +43,11 @@ const routes = [
     path: '/ConnexionPage',
     name: 'ConnexionPage',
     component: ConnexionPage
+  },
+  {
+    path: '/InscriptionPage1',
+    name: 'Inscription étape 1',
+    component: InscriptionPage1
   }
 ];
 

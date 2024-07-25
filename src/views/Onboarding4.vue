@@ -1,7 +1,7 @@
 <template>
     <div class="h-100 w-100">
         <HeaderOnboarding pointActif="4" />
-        <div class="mx-auto col-12 col-md-5 px-5 pt-5 pt-md-0 h-45vh align-items-center">
+        <div class="mx-auto col-10 col-md-5 px-5 pt-5 pt-md-0 align-items-center">
             <img src="../assets/Image4.png" alt="" class="w-100 mt-5" >
         </div>
 

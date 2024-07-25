@@ -4,7 +4,7 @@
             <img src="../assets/Image6.png" alt="" class="w-100" >
         </div>
 
-        <div class="col-12 col-md-6 mx-auto px-3 pt-5 rounded-5 conteneur-clair marge-negative-conteneur min-h-50vh bg-clair position-relative z-index-20">
+        <div class="col-12 col-md-6 mx-auto px-3 pt-5 conteneur-clair marge-negative-conteneur min-h-50vh bg-clair position-relative z-index-20">
             <h2 class="w-100 fw-900">Connectez-vous à SecureSentinel</h2>
             <form action="" class="mt-3">
                 <label for="email" class="label-normal" >E-mail</label>
@@ -23,7 +23,7 @@
                     <img src="../assets/Image7.svg" class="me-3" alt="">
                     <img src="../assets/Image8.svg" alt="">
                 </div>
-                <p class="text-center fw-400 fs-14 my-3 pb-5">Vous n'avez pas de compte ? <router-link to="/" class="lien text-black">Inscrivez-vous</router-link></p>
+                <p class="text-center fw-400 fs-14 mt-3 mb-0 pb-5">Vous n'avez pas de compte ? <router-link to="/InscriptionPage1" class="lien text-black">Inscrivez-vous</router-link></p>
             </form>
         </div>
     </div>
@@ -31,7 +31,7 @@
 
 <script>
 export default {
-    name: 'ConnexionPage',
+    name: 'ConnexionPage'
 }
 </script>
 
@@ -69,6 +69,15 @@ export default {
 .bouton-sombre {
     color: white;
     background-color: #343434;
+}
+.bouton-sombre:hover {
+    background-color: #505050;
+}
+.bouton-clair {
+    background-color: white;
+}
+.bouton-clair:hover {
+    background-color: #bcbcbc;
 }
 .conteneur-clair {
     border-top-left-radius: 50px;
