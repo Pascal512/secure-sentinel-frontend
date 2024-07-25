@@ -5,14 +5,18 @@
         </div>
 
         <div class="col-12 col-md-6 mx-auto px-3 pt-5 conteneur-clair bg-clair position-relative z-index-10 position-top-negative">
-            <h2 class="w-100 fw-900 text-center">De un...</h2>
+            <h2 class="w-100 fw-900 text-center">et de deux</h2>
             <form action="" class="mt-3">
-                <label for="name" class="label-normal" >Nom & Prénoms</label>
-                <input type="text" class="input-clair" id="name" placeholder="" >
+                <label for="email" class="label-normal" >Email</label>
+                <input type="email" class="input-clair" id="email" placeholder="" >
                 
-                <label for="tel" class="label-normal pt-3" >Numéro de Téléphone</label>
-                <input type="tel" class="input-clair padding-droit" id="tel" placeholder="" >
-                <router-link to="/InscriptionPage2" class="form-bouton bouton-sombre mt-5" >Suivant</router-link>
+                <label for="password" class="label-normal pt-3" >Mot de passe</label>
+                <input type="password" class="input-clair padding-droit" id="password" placeholder="" >
+                
+                <label for="passwordConfirm" class="label-normal pt-3" >Confirmation</label>
+                <input type="password" class="input-clair padding-droit" id="passwordConfirm" placeholder="" >
+
+                <router-link to="/Accueil" class="form-bouton bouton-sombre mt-5" >S'inscrire</router-link>
                 <p class="text-center fw-400 fs-14 my-3">Ou</p>
                 <div class="text-center">
                     <img src="../assets/Image7.svg" class="me-3" alt="">
