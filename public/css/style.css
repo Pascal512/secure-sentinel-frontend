@@ -1,5 +1,5 @@
 body {
-    font-family: 'Poppins';
+    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
     height: 100%;
     min-height: 100vh !important;
     width: 100% !important;
@@ -16,6 +16,9 @@ body {
 .bg-clair {
     color: black;
     background-color: white;
+}
+.bg-f0f0f0 {
+    background-color: #f0f0f0;
 }
 .couleurs-herite {
     color: inherit;
@@ -96,6 +99,19 @@ body {
     font-size: 19px;
     font-weight: 700;
 }
+.input-code {
+    width: 42px;
+    height: 52px;
+    margin: 0px auto;
+    border: none;
+    border-radius: 5px;
+    color: #343434;
+    background-color: #e6e6e6;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+}
 .input-clair {
     display: block;
     width: 100%;
@@ -128,4 +144,12 @@ body {
     text-decoration: underline;
     text-underline-offset: 4px;
     text-decoration-thickness: 2px;
+}
+
+.border-radius-50p {
+    border-radius: 50%;
+}
+
+.cursor-pointer {
+    cursor: pointer;
 }

@@ -10,7 +10,7 @@
             <form action="" class="mx-auto col-11 col-md-5">
                 <label for="email" class="label-normal" >E-mail</label>
                 <input type="email" id="email" placeholder="" :class="{ 'input-sombre': isModeSombre, 'input-clair': !isModeSombre }">
-                <router-link to="/" class="form-bouton mt-5" :class="{ 'bouton-sombre': !isModeSombre, 'bouton-clair': isModeSombre }">Réinitialisation mot de passe</router-link>
+                <router-link to="/VerificationEmail" class="form-bouton mt-5" :class="{ 'bouton-sombre': !isModeSombre, 'bouton-clair': isModeSombre }">Réinitialisation mot de passe</router-link>
                 <p class="text-center fw-400 text-14 mt-3 mb-0 pb-5">Vous vous souvenez de votre mot de passe ? <router-link to="/ConnexionPage" class="lien couleurs-herite">Connectez-vous</router-link></p>
             </form>
         </div>
@@ -38,7 +38,5 @@ export default {
 </script>
 
 <style>
-.border-radius-50p {
-    border-radius: 50%;
-}
+
 </style>

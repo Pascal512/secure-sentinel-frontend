@@ -9,6 +9,7 @@ import ConnexionPage from '@/views/ConnexionPage.vue';
 import InscriptionPage1 from '@/views/InscriptionPage1.vue';
 import InscriptionPage2 from '@/views/InscriptionPage2.vue';
 import MotDePasseOublie from '@/views/MotDePasseOublie.vue';
+import VerificationEmail from '@/views/VerificationEmail.vue';
 
 const routes = [
   {
@@ -60,6 +61,11 @@ const routes = [
     path: '/MotDePasseOublie',
     name: 'Mot de passe oublié',
     component: MotDePasseOublie
+  },
+  {
+    path: '/VerificationEmail',
+    name: 'Vérification Email',
+    component: VerificationEmail
   }
 ];
 
