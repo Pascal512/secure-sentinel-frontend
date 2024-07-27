@@ -8,6 +8,7 @@ import OnboardingFin from '@/views/OnboardingFin.vue';
 import ConnexionPage from '@/views/ConnexionPage.vue';
 import InscriptionPage1 from '@/views/InscriptionPage1.vue';
 import InscriptionPage2 from '@/views/InscriptionPage2.vue';
+import MotDePasseOublie from '@/views/MotDePasseOublie.vue';
 
 const routes = [
   {
@@ -54,6 +55,11 @@ const routes = [
     path: '/InscriptionPage2',
     name: 'Inscription étape 2',
     component: InscriptionPage2
+  },
+  {
+    path: '/MotDePasseOublie',
+    name: 'Mot de passe oublié',
+    component: MotDePasseOublie
   }
 ];
 

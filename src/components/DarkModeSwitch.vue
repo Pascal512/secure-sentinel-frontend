@@ -1,6 +1,7 @@
 <template>
     <div 
-        class="btn-switch-mode"
+        class="btn-switch-mode bg-sombre"
+        :class="{ 'bg-clair': isModeSombre, 'bg-sombre': !isModeSombre }"
         @click="toggleModeSombre"
         title="Changer le mode d'éclairage"
     >
@@ -37,16 +38,21 @@ export default {
 .btn-switch-mode {
   cursor: pointer;
   position: fixed;
-  bottom: 40px;
-  right: 40px;
+  bottom: 45px;
+  right: 45px;
+  border-radius: 50%;
 }
 
 .btn-switch-mode svg {
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
 }
 
 #svg-sun {
+  color: #343434;
+}
+#svg-moon {
   color: white;
 }
 

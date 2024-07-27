@@ -28,13 +28,9 @@
 export default {
     name: 'InscriptionPage1'
 }
-document.getElementById('app').style.backgroundColor = '#343434';
 </script>
 
 <style scoped>
-#app {
-    background-color: #343434 !important;
-}
 .position-top-negative {
     margin-top: -20px;
 }
