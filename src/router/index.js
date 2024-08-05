@@ -10,6 +10,7 @@ import InscriptionPage1 from '@/views/InscriptionPage1.vue';
 import InscriptionPage2 from '@/views/InscriptionPage2.vue';
 import MotDePasseOublie from '@/views/MotDePasseOublie.vue';
 import VerificationEmail from '@/views/VerificationEmail.vue';
+import NouveauMotDePasse from '@/views/NouveauMotDePasse.vue';
 
 const routes = [
   {
@@ -66,6 +67,11 @@ const routes = [
     path: '/VerificationEmail',
     name: 'Vérification Email',
     component: VerificationEmail
+  },
+  {
+    path: '/NouveauMotDePasse',
+    name: 'Créer un nou',
+    component: NouveauMotDePasse
   }
 ];
 
