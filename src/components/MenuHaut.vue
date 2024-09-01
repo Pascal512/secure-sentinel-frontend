@@ -1,5 +1,5 @@
 <template>
-    <div class="py-2 px-3 position-absolute top-0 start-0 w-100 d-flex justify-content-between h-min-70px"
+    <div class="py-2 px-3 position-fixed z-index-10 top-0 start-0 w-100 d-flex justify-content-between h-min-70px"
         :class="{ 'bg-clair bordure-bas-sombre': !isModeSombre, 'bg-sombre bordure-bas-clair': isModeSombre }"
     >
         <router-link to="/PageAccueil" class="d-inline-block align-self-center">

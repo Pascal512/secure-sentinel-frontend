@@ -38,7 +38,7 @@ export default {
 .btn-switch-mode {
   cursor: pointer;
   position: fixed;
-  bottom: 45px;
+  bottom: 80px;
   right: 45px;
   border-radius: 50%;
 }
