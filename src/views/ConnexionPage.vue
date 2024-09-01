@@ -17,7 +17,7 @@
                         <div class="lien text-black d-inline-block mt-3 me-5">Oublié ?</div>
                     </router-link>
                 </div>
-                <router-link to="/" class="form-bouton bouton-sombre mt-5" >Se connecter</router-link>
+                <router-link to="/PageAccueil" class="form-bouton bouton-sombre mt-5" >Se connecter</router-link>
                 <p class="text-center fw-400 text-14 my-3">Ou</p>
                 <div class="text-center">
                     <img src="../assets/Image7.svg" class="me-3" alt="">

@@ -6,9 +6,9 @@
             <div class="col-8 col-md-3 mx-auto mb-5">
                 <img src="../assets/Image11.png" alt="" class="d-block w-100 border-radius-50p bg-clair p-2 overflow-visible">
             </div>
-            <p class="text-center w-80 fw-400 text-19 mx-auto mb-5">Veuillez saisir le code à 4 chiffres envoyé sur *********@gmail</p>
+            <p class="text-center w-80 fw-400 text-19 mx-auto mb-5">Veuillez saisir le code à 4 chiffres envoyé sur *********@gmail.com</p>
             <form action="" class="mx-auto col-11 col-md-5">
-                <input type="number" name="code" id="code-0" class="cacher mx-auto d-block" @input="editer">
+                <input type="number" name="code" id="code-0" class="cacher mx-auto d-block" @input="editer" autofocus >
                 <div class="conteneur-code mx-auto">
                     <input type="number" maxlength="1" name="code-1" id="code-1" class="input-code" placeholder="_" @click="editer" readonly>
                     <input type="number" maxlength="1" name="code-2" id="code-2" class="input-code" placeholder="_" @click="editer" readonly>

@@ -28,6 +28,9 @@ body {
 .fw-400 {
     font-weight: 400;
 }
+.fw-500 {
+    font-weight:500;
+}
 .fw-600 {
     font-weight: 600;
 }
@@ -37,8 +40,17 @@ body {
 .text-14 {
     font-size: 14px;
 }
+.text-12 {
+    font-size: 12px;
+}
+.text-16 {
+    font-size: 16px;
+}
 .text-19 {
     font-size: 19px;
+}
+.text-20 {
+    font-size: 20px;
 }
 .text-26 {
     font-size: 26px;
@@ -74,6 +86,12 @@ body {
 }
 .min-h-100vh {
     min-height: 100vh;
+}
+.h-min-70px {
+    min-height: 70px;
+}
+.w-fit-content {
+    width: fit-content;
 }
 
 .padding-haut {

@@ -16,7 +16,7 @@
                 <label for="passwordConfirm" class="label-normal pt-3" >Confirmation</label>
                 <input type="password" class="input-clair padding-droit" id="passwordConfirm" placeholder="" >
 
-                <router-link to="/Accueil" class="form-bouton bouton-sombre mt-5" >S'inscrire</router-link>
+                <router-link to="/PageAccueil" class="form-bouton bouton-sombre mt-5" >S'inscrire</router-link>
                 <p class="text-center fw-400 fs-14 my-3">Ou</p>
                 <div class="text-center">
                     <img src="../assets/Image7.svg" class="me-3" alt="">
@@ -30,7 +30,7 @@
 
 <script>
 export default {
-    name: 'InscriptionPage1'
+    name: 'InscriptionPage2'
 }
 </script>
 

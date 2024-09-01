@@ -11,6 +11,7 @@ import InscriptionPage2 from '@/views/InscriptionPage2.vue';
 import MotDePasseOublie from '@/views/MotDePasseOublie.vue';
 import VerificationEmail from '@/views/VerificationEmail.vue';
 import NouveauMotDePasse from '@/views/NouveauMotDePasse.vue';
+import PageAccueil from '@/views/Accueil.vue';
 
 const routes = [
   {
@@ -70,8 +71,13 @@ const routes = [
   },
   {
     path: '/NouveauMotDePasse',
-    name: 'Créer un nou',
+    name: 'Créer un nouveau mot de passe',
     component: NouveauMotDePasse
+  },
+  {
+    path: '/PageAccueil',
+    name: 'Page d\'accueil',
+    component: PageAccueil
   }
 ];
 
