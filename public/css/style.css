@@ -63,6 +63,9 @@ body {
     border: none;
     border-radius: 22px;
 }
+.moins-arrondi {
+    border-radius: 9.42px !important;
+}
 .bouton-clair {
     color: #000000;
     background-color: #f5f5f5;
@@ -92,6 +95,12 @@ body {
 }
 .w-fit-content {
     width: fit-content;
+}
+.w-300px {
+    width: 300px;
+}
+.w-350px {
+    width: 350px;
 }
 
 .padding-haut {

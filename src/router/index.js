@@ -12,6 +12,7 @@ import MotDePasseOublie from '@/views/MotDePasseOublie.vue';
 import VerificationEmail from '@/views/VerificationEmail.vue';
 import NouveauMotDePasse from '@/views/NouveauMotDePasse.vue';
 import PageAccueil from '@/views/Accueil.vue';
+import PageCamerasVides from '@/views/Camera.vue';
 
 const routes = [
   {
@@ -78,6 +79,11 @@ const routes = [
     path: '/PageAccueil',
     name: 'Page d\'accueil',
     component: PageAccueil
+  },
+  {
+    path: '/PageCamerasVides',
+    name: 'Caméras absentes',
+    component: PageCamerasVides
   }
 ];
 
