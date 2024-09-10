@@ -41,6 +41,7 @@ export default {
   bottom: 80px;
   right: 45px;
   border-radius: 50%;
+  z-index: 10;
 }
 
 .btn-switch-mode svg {
