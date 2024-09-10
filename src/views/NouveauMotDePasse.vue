@@ -1,7 +1,7 @@
 <template>
     <MenuHautSansBouton titre="Créer un nouveau mot de passe" />
     <DarkModeSwitch />
-    <div class="min-h-100vh padding-haut" :class="{ 'bg-clair': !isModeSombre, 'bg-sombre': isModeSombre }" >
+    <div class="min-h-100vh padding-haut-bas" :class="{ 'bg-clair': !isModeSombre, 'bg-sombre': isModeSombre }" >
         <div class="container pt-5">
             <div class="col-8 col-md-3 mx-auto mb-5">
                 <div class="border-radius-50p bg-clair overflow-visible conteneur-image mx-auto">

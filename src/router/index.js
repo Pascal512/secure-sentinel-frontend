@@ -13,6 +13,7 @@ import VerificationEmail from '@/views/VerificationEmail.vue';
 import NouveauMotDePasse from '@/views/NouveauMotDePasse.vue';
 import PageAccueil from '@/views/Accueil.vue';
 import PageCamerasVides from '@/views/Camera.vue';
+import PageCameras from '@/views/Cameras.vue';
 
 const routes = [
   {
@@ -84,6 +85,11 @@ const routes = [
     path: '/PageCamerasVides',
     name: 'Caméras absentes',
     component: PageCamerasVides
+  },
+  {
+    path: '/PageCameras',
+    name: 'Caméras',
+    component: PageCameras
   }
 ];
 

@@ -1,7 +1,7 @@
 <template>
     <MenuHautSansBouton titre="Vérification mail" />
     <DarkModeSwitch />
-    <div class="min-h-100vh padding-haut z-index-10" :class="{ 'bg-clair': !isModeSombre, 'bg-sombre': isModeSombre }" >
+    <div class="min-h-100vh padding-haut-bas z-index-10" :class="{ 'bg-clair': !isModeSombre, 'bg-sombre': isModeSombre }" >
         <div class="container pt-5">
             <div class="col-8 col-md-3 mx-auto mb-5">
                 <img src="../assets/Image11.png" alt="" class="d-block w-100 border-radius-50p bg-clair p-2 overflow-visible">

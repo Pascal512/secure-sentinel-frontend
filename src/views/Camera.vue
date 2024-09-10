@@ -1,7 +1,7 @@
 <template>
     <MenuHaut titre="Caméra" />
     <DarkModeSwitch />
-    <div class="min-h-100vh padding-haut z-index-10 d-flex" :class="{ 'bg-clair': !isModeSombre, 'bg-sombre': isModeSombre }" >
+    <div class="min-h-100vh padding-haut-bas z-index-10 d-flex" :class="{ 'bg-clair': !isModeSombre, 'bg-sombre': isModeSombre }" >
 
         <div class="mx-auto pt-5 d-inline-block">
             <div class="my-5 py-4">
@@ -9,7 +9,7 @@
                 <p class="text-center px-5 pt-3 mt-4">Connectez votre caméra, regardez des vidéos et recevez des alertes dans l'application</p>
             </div>
             <div class="d-flex">
-                <router-link to="/PageCamera" class="bouton moins-arrondi text-center d-inline-block w-300px mx-auto mt-5 align-self-center" :class="{ 'bouton-clair': isModeSombre, 'bouton-sombre': !isModeSombre }" >Connecter un appareil</router-link>
+                <router-link to="/PageCameras" class="bouton moins-arrondi text-center d-inline-block w-300px mx-auto mt-5 align-self-center" :class="{ 'bouton-clair': isModeSombre, 'bouton-sombre': !isModeSombre }" >Connecter un appareil</router-link>
             </div>
         </div>
 

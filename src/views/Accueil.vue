@@ -1,7 +1,7 @@
 <template>
     <MenuHaut titre="SecureSentinel" />
     <DarkModeSwitch />
-    <div class="min-h-100vh padding-haut z-index-10" :class="{ 'bg-clair': !isModeSombre, 'bg-sombre': isModeSombre }" >
+    <div class="min-h-100vh padding-haut-bas z-index-10" :class="{ 'bg-clair': !isModeSombre, 'bg-sombre': isModeSombre }" >
         <div class="container pt-5">
 
             <h2 class="w-100 fw-900 text-center">Caméra de Surveillance</h2>
