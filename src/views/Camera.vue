@@ -14,7 +14,7 @@
         </div>
 
     </div>
-    <MenuBas fenetre="Accueil" />
+    <MenuBas fenetre="Camera" />
 </template>
 
 <script>
