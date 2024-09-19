@@ -34,6 +34,9 @@ body {
 .fw-600 {
     font-weight: 600;
 }
+.fw-700 {
+    font-weight: 700 !important;
+}
 .fw-900 {
     font-weight: 900;
 }
@@ -65,6 +68,10 @@ body {
 }
 .moins-arrondi {
     border-radius: 9.42px !important;
+}
+.bouton-vert {
+    color: white;
+    background-color: #34A853;
 }
 .bouton-clair {
     color: #000000;

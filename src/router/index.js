@@ -14,6 +14,7 @@ import NouveauMotDePasse from '@/views/NouveauMotDePasse.vue';
 import PageAccueil from '@/views/Accueil.vue';
 import PageCamerasVides from '@/views/Camera.vue';
 import PageCameras from '@/views/Cameras.vue';
+import CameraDetails from '@/views/CameraDetails.vue';
 
 const routes = [
   {
@@ -90,6 +91,11 @@ const routes = [
     path: '/PageCameras',
     name: 'Caméras',
     component: PageCameras
+  },
+  {
+    path: '/CameraDetails',
+    name: 'Détails de Caméra',
+    component: CameraDetails
   }
 ];
 
