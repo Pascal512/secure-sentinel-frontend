@@ -15,6 +15,8 @@ import PageAccueil from '@/views/Accueil.vue';
 import PageCamerasVides from '@/views/Camera.vue';
 import PageCameras from '@/views/Cameras.vue';
 import CameraDetails from '@/views/CameraDetails.vue';
+import PageAlarmes from '@/views/Notifications.vue';
+import PageUpload from '@/views/PageUpload.vue';
 
 const routes = [
   {
@@ -96,6 +98,16 @@ const routes = [
     path: '/CameraDetails',
     name: 'Détails de Caméra',
     component: CameraDetails
+  },
+  {
+    path: '/PageAlarmes',
+    name: 'Alarmes',
+    component: PageAlarmes
+  },
+  {
+    path: '/PageUpload',
+    name: 'Photos connues',
+    component: PageUpload
   }
 ];
 

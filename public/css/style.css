@@ -25,6 +25,10 @@ body {
     background-color: inherit;
 }
 
+.ombre-simple {
+    box-shadow: -3px 1px 9px 0px #00000044;
+}
+
 .fw-400 {
     font-weight: 400;
 }
@@ -40,11 +44,20 @@ body {
 .fw-900 {
     font-weight: 900;
 }
-.text-14 {
-    font-size: 14px;
+.text-11 {
+    font-size: 11px;
 }
 .text-12 {
     font-size: 12px;
+}
+.text-13 {
+    font-size: 13px;
+}
+.text-14 {
+    font-size: 14px;
+}
+.text-15 {
+    font-size: 15px;
 }
 .text-16 {
     font-size: 16px;
@@ -57,6 +70,9 @@ body {
 }
 .text-26 {
     font-size: 26px;
+}
+.text-justify {
+    text-align: justify;
 }
 
 .bouton {
@@ -95,7 +111,7 @@ body {
     height: 50vh !important;
 }
 .h-100px {
-    height: 100px;
+    height: 100px !important;
 }
 .min-h-50vh {
     min-height: 50vh !important;
@@ -199,6 +215,9 @@ body {
 }
 .border-radius-20px {
     border-radius: 20px;
+}
+.border-radius-11px {
+    border-radius: 11px;
 }
 
 .cursor-pointer {

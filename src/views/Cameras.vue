@@ -2,7 +2,7 @@
     <MenuHaut titre="Caméras" />
     <DarkModeSwitch />
     <div class="min-h-100vh padding-haut-bas z-index-10" :class="{ 'bg-clair': !isModeSombre, 'bg-sombre': isModeSombre }" >
-        <div class="my-4 mx-auto px-4 d-flex bg-light text-dark filtre justify-content-between">
+        <div class="my-4 mx-auto px-4 d-flex bg-light text-dark filtre justify-content-between ombre-simple">
             <img src="../assets/svg/filter.svg" alt="">
             <span>Filtrer par camera ou position</span>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">

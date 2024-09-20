@@ -1,6 +1,6 @@
 <template>
     <div class="py-2 px-3 position-fixed z-index-10 top-0 start-0 w-100 d-flex justify-content-between h-min-70px"
-        :class="{ 'bg-clair bordure-bas-sombre': !isModeSombre, 'bg-sombre bordure-bas-clair': isModeSombre }"
+        :class="{ 'bg-clair bordure-bas-sombre': !isModeSombre, 'bg-sombre-menu-haut bordure-bas-clair': isModeSombre }"
     >
         <router-link to="/PageAccueil" class="d-inline-block align-self-center">
             <svg width="30" height="30" viewBox="0 0 30 30" fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="btn-img" :class="{ 'd-none': !isModeSombre }">
@@ -49,6 +49,7 @@ export default {
     border-bottom: 2px solid #343434;
 }
 .bg-sombre-menu-haut {
+    color: white;
     background-color: #2D2C2C;
 }
 .btn-img {

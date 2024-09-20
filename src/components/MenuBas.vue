@@ -1,8 +1,8 @@
 <template>
     <div class="menuBas px-5 justify-content-center h-min-70px"
-        :class="{ 'bg-clair bordure-haut-sombre': !isModeSombre, 'bg-sombre bordure-haut-clair': isModeSombre }"
+        :class="{ 'bg-clair bordure-haut-sombre': !isModeSombre, 'bg-sombre-menu-bas bordure-haut-clair': isModeSombre }"
     >
-        <div class="menuBasSousConteneur" :class="{ 'bg-clair': !isModeSombre, 'bg-sombre': isModeSombre }">
+        <div class="menuBasSousConteneur" :class="{ 'bg-clair': !isModeSombre, 'bg-sombre-menu-bas': isModeSombre }">
             <router-link to="/PageAccueil" class="d-inline-block align-self-center" title="Page d'accueil" >
                 <svg width="19" height="19" viewBox="0 0 19 19" fill="currentColor" xmlns="http://www.w3.org/2000/svg" :class="{ 'd-none': fenetre!=='Accueil' }" >
     <path d="M17.0397 16.0141V7.49726C17.0397 7.34171 17.0035 7.18829 16.9339 7.04916C16.8643 6.91003 16.7633 6.78901 16.6389 6.69568L9.625 1.43526C9.45156 1.30518 9.24061 1.23486 9.02381 1.23486C8.80701 1.23486 8.59606 1.30518 8.42262 1.43526L1.40873 6.69568C1.28429 6.78901 1.18328 6.91003 1.11372 7.04916C1.04415 7.18829 1.00793 7.34171 1.00793 7.49726V16.0141C1.00793 16.2799 1.1135 16.5347 1.30141 16.7226C1.48932 16.9105 1.74418 17.0161 2.00992 17.0161H6.01785C6.2836 17.0161 6.53846 16.9105 6.72636 16.7226C6.91427 16.5347 7.01984 16.2799 7.01984 16.0141V13.0082C7.01984 12.7424 7.1254 12.4876 7.31331 12.2997C7.50122 12.1118 7.75608 12.0062 8.02182 12.0062H10.0258C10.2915 12.0062 10.5464 12.1118 10.7343 12.2997C10.9222 12.4876 11.0278 12.7424 11.0278 13.0082V16.0141C11.0278 16.2799 11.1333 16.5347 11.3212 16.7226C11.5092 16.9105 11.764 17.0161 12.0298 17.0161H16.0377C16.3034 17.0161 16.5583 16.9105 16.7462 16.7226C16.9341 16.5347 17.0397 16.2799 17.0397 16.0141Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -95,7 +95,7 @@ export default {
     width: 25px;
     height: 25px;
 }
-.bg-sombre > a > svg {
+.bg-sombre-menu-bas > a > svg {
     color: #F8F8F8;
 }
 .bg-clair > a > svg {

@@ -1,6 +1,6 @@
 <template>
     <div class="text-center fw-600 text-26 py-2 position-absolute top-0 start-0 w-100"
-        :class="{ 'bg-clair bordure-bas-sombre': !isModeSombre, 'bg-sombre bordure-bas-clair': isModeSombre }"
+        :class="{ 'bg-clair bordure-bas-sombre': !isModeSombre, 'bg-sombre-menu-haut bordure-bas-clair': isModeSombre }"
     >
         {{ titre }}
     </div>
@@ -29,5 +29,9 @@ export default {
 }
 .bordure-bas-sombre {
     border-bottom: 2px solid #343434;
+}
+.bg-sombre-menu-haut {
+    color: white;
+    background-color: #2D2C2C;
 }
 </style>
