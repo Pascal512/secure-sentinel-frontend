@@ -29,6 +29,9 @@ body {
     box-shadow: -3px 1px 9px 0px #00000044;
 }
 
+.fw-300 {
+    font-weight: 300;
+}
 .fw-400 {
     font-weight: 400;
 }
@@ -61,6 +64,9 @@ body {
 }
 .text-16 {
     font-size: 16px;
+}
+.text-18 {
+    font-size: 18px;
 }
 .text-19 {
     font-size: 19px;
