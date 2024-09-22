@@ -17,6 +17,7 @@ import PageCameras from '@/views/Cameras.vue';
 import CameraDetails from '@/views/CameraDetails.vue';
 import PageAlarmes from '@/views/Notifications.vue';
 import PageUpload from '@/views/PageUpload.vue';
+import PageSettings from '@/views/PageSettings.vue';
 
 const routes = [
   {
@@ -108,6 +109,11 @@ const routes = [
     path: '/PageUpload',
     name: 'Photos connues',
     component: PageUpload
+  },
+  {
+    path: '/PageSettings',
+    name: 'Paramètres',
+    component: PageSettings
   }
 ];
 
